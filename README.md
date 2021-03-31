@@ -12,3 +12,4 @@ DSChristmas.reality : AR version of O'Neill 2020 Christmas card
 It also contains a few basic .usdz AR files as examples, including stamp.usdz (a lion-headed stamp model made in the Digital Studio) and toy_robot_vintage.usdz (a toy robot example downloaded from the Apple AR example page)
 
 
+geoLab.reality and scavengerHunt.reality are two draft experiences for an Earth Sciences course.
