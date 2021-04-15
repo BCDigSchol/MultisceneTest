@@ -40,12 +40,12 @@
 <script type="text/javascript">
 var presenter = null;
 
-function setup3dhop() { 
+function setup3dhop() {
 	presenter = new Presenter("draw-canvas");
 
 	presenter.setScene({
 		meshes: {
-			"Gargoyle" : { url: "models/gargo.nxz" },
+			"Gargoyle" : { url: "models/bird1.nxz" },
 			"Cage" : { url: "models/cage.ply" }
 		},
 		modelInstances : {
@@ -60,11 +60,11 @@ function setup3dhop() {
 }
 
 function actionsToolbar(action) {
-	if(action=='home') presenter.resetTrackball(); 
+	if(action=='home') presenter.resetTrackball();
 	else if(action=='zoomin') presenter.zoomIn();
-	else if(action=='zoomout') presenter.zoomOut(); 
-	else if(action=='light' || action=='light_on') { presenter.enableLightTrackball(!presenter.isLightTrackballEnabled()); lightSwitch(); } 
-	else if(action=='full'  || action=='full_on') fullscreenSwitch(); 
+	else if(action=='zoomout') presenter.zoomOut();
+	else if(action=='light' || action=='light_on') { presenter.enableLightTrackball(!presenter.isLightTrackballEnabled()); lightSwitch(); }
+	else if(action=='full'  || action=='full_on') fullscreenSwitch();
 }
 
 $(document).ready(function(){
